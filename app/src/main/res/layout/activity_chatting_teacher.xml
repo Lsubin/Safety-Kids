@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChattingTeacherActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#CEFBC9"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="알림"
+        android:textColor="#ffffff"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listChatting"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:background="@drawable/border2"
+        android:transcriptMode="alwaysScroll"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editContent"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="선택창에서 선택하세요."
+            android:textSize="11sp"
+            android:padding="10dp"
+            android:background="#fff"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btnEnter"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="보내기"
+            android:textSize="11sp"
+            android:background="#fff"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="선택"
+            android:textSize="11sp"
+            android:background="#fff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_notification"
+    tools:context=".MainActivity" >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    </FrameLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="675dp"
+        android:textColor="#ffffff"
+        android:onClick="GotoMessage"
+        app:civ_border_color="#ffffff"
+        app:civ_border_width="2dp"
+        android:src="@drawable/msg"
+
+ />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherActivity"
+    android:gravity="center"
+    android:background="#CEFBC9"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+
+            <ListView
+                android:id="@+id/listBook"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/border2" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="출석부"
+            android:textColor="#ffffff"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rssi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="155dp"
+            android:hint="평균 값 확인"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/startService"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="630sp"
+            android:background="#ffffff"
+            android:text="체크 시작" />
+
+        <Button
+            android:id="@+id/stopService"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="630sp"
+            android:background="#ffffff"
+            android:text="체크 종료" />
+
+    </FrameLayout>
+</LinearLayout>

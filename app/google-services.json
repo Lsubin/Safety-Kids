@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "994859776722",
+    "firebase_url": "https://daycarecenter-6d0bc.firebaseio.com",
+    "project_id": "daycarecenter-6d0bc",
+    "storage_bucket": "daycarecenter-6d0bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994859776722:android:defce54e69f02fe8584b0b",
+        "android_client_info": {
+          "package_name": "com.example.daycarecenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994859776722-gerj7p2rpmbtch5shck6pvrn6kh5le23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ5FYXQXmqZGouYvcPAc1aa9HzRX4IYDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994859776722-gerj7p2rpmbtch5shck6pvrn6kh5le23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

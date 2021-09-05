@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#D4F4FA"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="380dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/school" />
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/children" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Safety kids"
+            android:textColor="#ffffff"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="475dp"
+            android:hint="이름"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="550dp"
+            android:background="@drawable/border"
+            android:text="출석부"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_chat"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="620dp"
+            android:background="@drawable/border"
+            android:text="알림"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/startService"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="630sp"
+            android:background="@drawable/border"
+            android:text="탐색 시작" />
+
+        <Button
+            android:id="@+id/stopService"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="630sp"
+            android:background="@drawable/border"
+            android:text="탐색 종료" />
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="310dp"
+            android:src="@drawable/photo"
+            app:civ_border_color="#D4F4FA"
+            app:civ_border_width="2dp" />
+
+
+        <ImageButton
+            android:id="@+id/cameraBTN"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="230dp"
+            android:layout_marginBottom="310dp"
+            android:background="#000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>
